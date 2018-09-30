@@ -1,28 +1,19 @@
-from django.forms import Form,ModelForm,CharField
-from django.contrib.auth.hashers import check_password
-from .models import MyUser
+from django.forms import Form,ModelForm
+from django import forms
 
 
 #注册表单
-class RegisterForm(ModelForm):
-    class Meta:
-        model = MyUser
-        fields = ['UserName','UserPassword','UserAge']
+class RegisterForm(forms.Form):
+
+    UserName = forms.CharField(max_length=100)
+    UserPassword1 = forms.CharField(max_length=100)
+    UserPassword2 = forms.CharField(max_length=100)
+    age = forms.CharField(max_length=50)
+
 
 
 #登录表单
-class LoginForm(Form):
-    UserName = CharField(max_length=100)
-    UserPassword = CharField(max_length=100)
+class LoginForm(forms.Form):
 
-    def chk_password(self):
-        UserName = self.cleaned_data['UserName']
-        UserPassword = self.cleaned_data['UserPassword']
-
-        try:
-            user = MyUser.objects.get(UserName=UserName)
-            return user,check_password(UserPassword,user.UserPassword)
-
-        except:
-            return None,False
-
+    UserName = forms.CharField(max_length=100)
+    UserPassword = forms.CharField(max_length=100)

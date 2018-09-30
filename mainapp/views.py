@@ -5,7 +5,7 @@ from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Wo
 from rest_framework.response import Response
 from django.shortcuts import render
 from django.http.response import HttpResponse
-import json
+from mainapp import models
 
 
 # Create your views here.
@@ -82,56 +82,62 @@ class FindWordsSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-from django.contrib import auth
-from .models import MyUser
 from django.views.decorators.csrf import csrf_exempt
-from django.http import HttpResponseRedirect
+from .forms import RegisterForm
+
+'''
+#注册
+@csrf_exempt
+def register(request):
+    if request.method == 'POST':
+        form = RegisterForm(request.POST)
+        
+
+        account = request.POST.get('account')
+
+        password = request.POST.get('password')
+
+        # password2 = request.POST['password2']
+
+        age = request.POST.get('age')
+
+        user = models.MyUser.objects.create(UserName=account, UserPassword=password, UserAge=age)
+        print(type(user), user)
+        user.save()
+
+    return HttpResponse('注册成功')
+'''
+
+from .models import MyUser
+from .forms import RegisterForm, LoginForm
 
 
 @csrf_exempt
 def register(request):
-    account = None
-    password = None
-    password2 = None
-    age = None
-    CompareFlag = False
-
     if request.method == 'POST':
-        if not request.POST.get('account'):
-            print('用户名不能为空')
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password1 = form.cleaned_data['password1']
+            password2 = form.cleaned_data['password2']
+            age = form.cleaned_data['age']
+            user = MyUser.objects.create(UserName=username, UserPassword=password1, UserAge=age)
+            user.save()
+            return HttpResponse('注册成功')
 
-        else:
-            account = request.POST.get('account')
 
-        if not request.POST.get('password'):
-            print('密码不能为空')
 
-        else:
-            password = request.POST.get('password')
+@csrf_exempt
+def login(request):
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
 
-        if not request.POST.get('password2'):
-            print('确认密码不能为空')
-
-        else:
-            password2 = request.POST.get('password2')
-
-        if not request.POST.get('age'):
-            print('年龄不能为空')
-
-        else:
-            age = request.POST.get('age')
-
-        if password is not None:
-            if password == password2:
-                CompareFlag = True
+            namefilter = MyUser.objects.filter(UserName=username, UserPassword=password)
+            if len(namefilter) > 0:
+                return HttpResponse('登录成功')
 
             else:
-                print('两次密码不一致')
-
-        if account is not None and password is not None and password2 is not None and age is not None and CompareFlag:
-            user = MyUser.objects.create(account,password,age)
-            user.save()
-
-    return render(request,'user')
-
-
+                return HttpResponse('请重新输入密码')

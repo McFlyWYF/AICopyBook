@@ -18,8 +18,11 @@ from django.conf.urls import url,include
 from django.views.static import serve
 from django.conf import settings
 
+from mainapp import views
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'',include('mainapp.urls',namespace='mainapp')),
     url(r'^static/(?P<path>.*)$',serve,{'document_root':settings.STATICFILES_DIRS}),
+    url(r'register/$',views.register),
 ]

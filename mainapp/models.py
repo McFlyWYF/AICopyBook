@@ -34,9 +34,9 @@ class CopyBookAll(models.Model):
 '''
 
 class MyUser(models.Model):
-    UserName = models.CharField(max_length=100, unique=True,null=False,blank=False)  # 用户名
-    UserPassword = models.CharField(max_length=100, null=False,blank=False)  # 密码
-    UserAge = models.CharField(max_length=50)  # 年龄段
+    UserName = models.CharField(max_length=100,primary_key=True)  # 用户名
+    UserPassword = models.CharField(max_length=100,null=True)  # 密码
+    UserAge = models.CharField(max_length=50,null=True)  # 年龄段
 
 
     def __str__(self):
