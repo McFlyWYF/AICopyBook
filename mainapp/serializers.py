@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import CopyBookList, CopyBookAll, WordsOutline, MyUser, ChinesePainting, Words, FindWords, Author
+from .models import CopyBookList, CopyBookAll, WordsOutline, ChinesePainting, Words, FindWords, Author
 
 '''
 json格式化model对象
@@ -28,12 +28,6 @@ class WordsOutlineSerializer(serializers.ModelSerializer):
         model = WordsOutline
         fields = '__all__'
 
-
-# # 用户
-# class MyUserSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = MyUser
-#         fields = '__all__'
 
 
 # 国画

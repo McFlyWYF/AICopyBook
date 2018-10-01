@@ -33,14 +33,30 @@ class CopyBookAll(models.Model):
 用户表
 '''
 
-class MyUser(models.Model):
-    UserName = models.CharField(max_length=100,primary_key=True)  # 用户名
-    UserPassword = models.CharField(max_length=100,null=True)  # 密码
-    UserAge = models.CharField(max_length=50,null=True)  # 年龄段
 
+class MyUser(models.Model):
+    UserName = models.CharField(max_length=100, primary_key=True)  # 用户名
+    UserPassword = models.CharField(max_length=100)  # 密码
+    UserAge = models.CharField(max_length=50, null=True)  # 年龄段
+    UserAvatar = models.FileField(upload_to='media')  # 用户头像
 
     def __str__(self):
         return self.UserName
+
+
+'''
+动态表
+'''
+
+
+class FriendsCircleItem(models.Model):
+    user = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
+    releaseDate = models.DateTimeField(max_length=200)  # 发布日期
+    ItemText = models.TextField(max_length=500)  # 文字描述
+    imgUrl = models.URLField(max_length=100)  # 发布图片URL
+    stick = models.CharField(max_length=100, null=True)  # 是否为生成的碑帖
+    likeNum = models.CharField(max_length=100)  # 点赞数
+    shareNum = models.CharField(max_length=100)  # 分享数
 
 
 '''
@@ -77,8 +93,8 @@ class ChinesePainting(models.Model):
 
 class Collectors(models.Model):
     CollectId = models.CharField(max_length=50, primary_key=True)  # 收藏品ID
-    CollectName = models.ForeignKey(CopyBookList, on_delete=models.CASCADE)  # 收藏品名称
-    CollectUser = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 收藏家
+    CollectUrl = models.URLField(max_length=100)  # 收藏品URL
+    CollectUser = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
 
     def __str__(self):
         return self.CollectId
@@ -95,6 +111,7 @@ class Words(models.Model):
     def __str__(self):
         return self.WordName
 
+
 '''
 书法家表
 '''
@@ -102,10 +119,11 @@ class Words(models.Model):
 
 class Author(models.Model):
     AuthorName = models.CharField(max_length=50, primary_key=True)  # 书法家名
-    AuthorWords = models.ManyToManyField(Words,through='FindWords')
+    AuthorWords = models.ManyToManyField(Words, through='FindWords')
 
     def __str__(self):
         return self.AuthorName
+
 
 '''
 根据书法家查找相应的字

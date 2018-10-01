@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.conf.urls import url,include
+from django.conf.urls import url, include
 from django.views.static import serve
 from django.conf import settings
 
@@ -22,7 +22,11 @@ from mainapp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'',include('mainapp.urls',namespace='mainapp')),
-    url(r'^static/(?P<path>.*)$',serve,{'document_root':settings.STATICFILES_DIRS}),
-    url(r'register/$',views.register),
+    url(r'', include('mainapp.urls', namespace='mainapp')),
+    url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    url(r'register/$', views.register),  # 注册
+    url(r'login/$', views.login),  # 登录
+    url(r'collect/$', views.collection),  # 收藏
+    url(r'friend/$', views.friend),  # 朋友圈
 ]

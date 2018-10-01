@@ -24,7 +24,7 @@ SECRET_KEY = 'd=4(9n=g%jx6=+dy+3n^dkt%2*syt(gko3%4$ke!^mlaqy967*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','39.105.110.19']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '39.105.110.19']
 
 # Application definition
 
@@ -62,6 +62,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media'
             ],
         },
     },
@@ -114,12 +115,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),  # 首选project静态文件搜寻路径
-    # '/var/www/static/',  # 第二选project静态文件搜寻路径
-)
-
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, "static"),  # 首选project静态文件搜寻路径
+#     # '/var/www/static/',  # 第二选project静态文件搜寻路径
+# )
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES':
