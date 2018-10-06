@@ -38,7 +38,7 @@ class MyUser(models.Model):
     UserName = models.CharField(max_length=100, primary_key=True)  # 用户名
     UserPassword = models.CharField(max_length=100)  # 密码
     UserAge = models.CharField(max_length=50, null=True)  # 年龄段
-    UserAvatar = models.FileField(upload_to='media')  # 用户头像
+    UserAvatar = models.FileField(upload_to='media',null=True)  # 用户头像
 
     def __str__(self):
         return self.UserName
