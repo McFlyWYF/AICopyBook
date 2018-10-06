@@ -711,16 +711,16 @@ model</ColNames>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="158" parent="23" name="UserAge">
+    <column id="158" parent="23" name="UserPassword">
       <Position>2</Position>
-      <DataType>varchar(50)|0</DataType>
-    </column>
-    <column id="159" parent="23" name="UserAvatar">
-      <Position>3</Position>
-      <DataType>varchar(500)|0</DataType>
+      <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="160" parent="23" name="UserPassword">
+    <column id="159" parent="23" name="UserAge">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="160" parent="23" name="UserAvatar">
       <Position>4</Position>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>

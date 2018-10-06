@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import CopyBookList, CopyBookAll, WordsOutline, ChinesePainting, Words, FindWords, Author
+from .models import CopyBookList, CopyBookAll, WordsOutline, ChinesePainting, Words, FindWords, Author,FriendsCircleItem
 
 '''
 json格式化model对象
@@ -61,5 +61,9 @@ class AuthorSerializer(serializers.ModelSerializer):
         model = Author
         fields = ('AuthorName','AuthorWords')
 
+#朋友圈
+class FriendsSerializer(serializers.ModelSerializer):
 
-
+    class Meta:
+        model = FriendsCircleItem
+        fields = '__all__'

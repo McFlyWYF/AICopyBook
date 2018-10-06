@@ -1,10 +1,9 @@
 from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
-    ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer
+    ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer,FriendsSerializer
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
     Collectors, FriendsCircleItem
 from rest_framework.response import Response
-from django.shortcuts import render
 from django.http.response import HttpResponse
 from mainapp import models
 
@@ -151,3 +150,11 @@ def friend(request):
                                                  likeNum=likenum, shareNum=sharenum, user_id=user)
         users.save()
         return HttpResponse('发布成功')
+
+class FriendsSet(viewsets.ModelViewSet):
+    '''
+    朋友圈
+    '''
+
+    queryset = FriendsCircleItem.objects.all()
+    serializer_class = FriendsSerializer
