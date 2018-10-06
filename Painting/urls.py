@@ -29,4 +29,7 @@ urlpatterns = [
     url(r'login/$', views.login),  # 登录
     url(r'collect/$', views.collection),  # 收藏
     url(r'friend/$', views.friend),  # 朋友圈
+
+
+    url(r'hqz/$',views.hqz),
 ]

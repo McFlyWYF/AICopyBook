@@ -2,7 +2,7 @@ from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
     ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer,FriendsSerializer
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
-    Collectors, FriendsCircleItem
+    Collectors, FriendsCircleItem,HQZ
 from rest_framework.response import Response
 from django.http.response import HttpResponse
 from mainapp import models
@@ -158,3 +158,16 @@ class FriendsSet(viewsets.ModelViewSet):
 
     queryset = FriendsCircleItem.objects.all()
     serializer_class = FriendsSerializer
+
+
+
+@csrf_exempt
+def hqz(request):
+    if request.method == 'POST':
+        avatar = request.FILES.get('avatar')  # 头像，通过127.0.0.1:8000/media/图片名访问头像
+        user = models.HQZ.objects.create(Image=avatar)
+        user.save()
+
+        return HttpResponse('上传成功')
+    else:
+        return HttpResponse('上传失败')
