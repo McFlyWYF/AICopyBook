@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538877694483</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="words">
+      <created>1538878390745</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1538878390745</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -720,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

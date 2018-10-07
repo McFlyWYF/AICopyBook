@@ -15,11 +15,11 @@ class CopyBookAllSerializer(serializers.ModelSerializer):
 
 
 class CopyBookListSerializer(serializers.ModelSerializer):
-    copy_book_all = CopyBookAllSerializer(source='copyBookAllSet', read_only=True, many=True)
+    copy_book_all = CopyBookAllSerializer(source='copybookall_set', read_only=True, many=True)
 
     class Meta:
         model = CopyBookList
-        fields = ('author', 'copyBookName', 'copyBookAll')
+        fields = ('author', 'copyBookName', 'copy_book_all')
 
 
 # 轮廓
