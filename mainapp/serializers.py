@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import CopyBookList, CopyBookAll, WordsOutline, ChinesePainting, Words, FindWords, Author,FriendsCircleItem
+from .models import CopyBookList, CopyBookAll, WordsOutline, ChinesePainting, Words, FindWords, Author, \
+    FriendsCircleItem, MyUser
 
 '''
 json格式化model对象
@@ -20,6 +21,25 @@ class CopyBookListSerializer(serializers.ModelSerializer):
     class Meta:
         model = CopyBookList
         fields = ('author', 'copyBookName', 'copy_book_all')
+
+
+# 朋友圈
+class FriendsSerializer(serializers.ModelSerializer):
+    user = serializers.PrimaryKeyRelatedField(read_only=True,)
+
+    class Meta:
+        model = FriendsCircleItem
+        fields = ('user', 'releaseDate', 'ItemText', 'imgUrl', 'stick', 'likeNum', 'shareNum')
+
+
+#用户
+class MyUserSerializer(serializers.ModelSerializer):
+
+    friends_circle_item = FriendsSerializer(source='friendscircleitem_set',read_only=True,many=True)
+
+    class Meta:
+        model = MyUser
+        fields = ('UserName', 'UserAvatar', 'friends_circle_item')
 
 
 # 轮廓
@@ -61,9 +81,4 @@ class AuthorSerializer(serializers.ModelSerializer):
         model = Author
         fields = ('AuthorName','AuthorWords')
 
-#朋友圈
-class FriendsSerializer(serializers.ModelSerializer):
 
-    class Meta:
-        model = FriendsCircleItem
-        fields = '__all__'

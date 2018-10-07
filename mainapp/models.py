@@ -58,6 +58,8 @@ class FriendsCircleItem(models.Model):
     likeNum = models.CharField(max_length=100)  # 点赞数
     shareNum = models.CharField(max_length=100)  # 分享数
 
+    def __str__(self):
+        return self.user
 
 '''
 字体轮廓表

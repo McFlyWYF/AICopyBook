@@ -10,7 +10,8 @@ router.register(r'copybookAll', views.copyBookAllSet)  # 所有碑帖图片
 router.register(r'WordsOutline', views.WordsOutlineSet)  # 字轮廓
 router.register(r'ChinesePainting', views.ChinesePaintingSet)  # 国画
 router.register(r'findwords', views.FindWordsSet)  #提取字
-router.register(r'friends',views.FriendsSet)  #朋友圈
+router.register(r'friends',views.FriendsCircleItemSet)  #朋友圈
+router.register(r'myuser',views.MyUserSet)  #用户
 
 
 urlpatterns = [

@@ -1,6 +1,7 @@
 from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
-    ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer,FriendsSerializer
+    ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer, \
+    FriendsSerializer, MyUserSerializer
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
     Collectors, FriendsCircleItem,HQZ
 from rest_framework.response import Response
@@ -30,6 +31,25 @@ class copyBookAllSet(viewsets.ModelViewSet):
     queryset = CopyBookAll.objects.all()
     serializer_class = CopyBookAllSerializer
     lookup_field = 'CopyBookEachName'
+
+
+class MyUserSet(viewsets.ModelViewSet):
+    '''
+    用户
+    '''
+    queryset = MyUser.objects.all()
+    serializer_class = MyUserSerializer
+    lookup_field = 'UserName'
+
+
+class FriendsCircleItemSet(viewsets.ModelViewSet):
+    '''
+    朋友圈
+    '''
+
+    queryset = FriendsCircleItem.objects.all()
+    serializer_class = FriendsSerializer
+    lookup_field = 'user'
 
 
 class ChinesePaintingSet(viewsets.ModelViewSet):
@@ -150,15 +170,6 @@ def friend(request):
                                                  likeNum=likenum, shareNum=sharenum, user_id=user)
         users.save()
         return HttpResponse('发布成功')
-
-class FriendsSet(viewsets.ModelViewSet):
-    '''
-    朋友圈
-    '''
-
-    queryset = FriendsCircleItem.objects.all()
-    serializer_class = FriendsSerializer
-
 
 
 @csrf_exempt
