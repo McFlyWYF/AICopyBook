@@ -19,7 +19,7 @@ class CopyBookListSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CopyBookList
-        fields = ('author', 'copyBookName', 'copy_book_all')
+        fields = ('author', 'copyBookName', 'copyBookAll')
 
 
 # 轮廓
