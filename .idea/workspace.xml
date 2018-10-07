@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e0320e-9a16-4482-aaf3-8069cf9fb52f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0026_auto_20181007_1902.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/9.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Painting/urls.py" afterPath="$PROJECT_DIR$/Painting/urls.py" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/mainapp/models.py" afterPath="$PROJECT_DIR$/mainapp/models.py" />
-      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" afterPath="$PROJECT_DIR$/mainapp/urls.py" />
-      <change beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
-      <change beforePath="$PROJECT_DIR$/media/media/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/德-黄庭坚.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/德-黄庭坚_RNQxOXg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/3.jpg" afterPath="$PROJECT_DIR$/media/media/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/media/4.jpg" afterPath="$PROJECT_DIR$/media/media/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/media/5.jpg" afterPath="$PROJECT_DIR$/media/media/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/media/6.jpg" afterPath="$PROJECT_DIR$/media/media/6.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/media/7.jpg" afterPath="$PROJECT_DIR$/media/media/7.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/media/8.jpg" afterPath="$PROJECT_DIR$/media/media/8.jpg" />
+      <change beforePath="$PROJECT_DIR$/media/media/9.jpg" afterPath="$PROJECT_DIR$/media/media/9.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,80 +54,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="169" column="46" lean-forward="false" selection-start-line="169" selection-start-column="46" selection-end-line="169" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Painting/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="456">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainapp_collectors" pinned="false" current-in-tab="false">
-        <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_collectors">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainapp_friendscircleitem" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainapp_friendscircleitem" pinned="false" current-in-tab="true">
         <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_friendscircleitem">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainapp_copybookall" pinned="false" current-in-tab="true">
-        <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_copybookall">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainapp_myuser" pinned="false" current-in-tab="false">
-        <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_myuser">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainapp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -262,53 +181,13 @@
             <path>
               <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
               <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
               <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
               <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="文徵明" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="欧阳询" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="王羲之" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="赵孟頫" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="颜真卿" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -542,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538908943422</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="api">
+      <created>1538914156976</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1538914156976</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,48 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/fdeb724b/6d62926b-9748-4c7f-a6f1-ee76a1b81bf7/main.sqlite_master" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/文徵明/小楷太上老君说/fatie-000.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_wordslist">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_wordsall">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/颜真卿/行草书争座位帖/fatie-010.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/颜真卿/行草书争座位帖/fatie-007.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/颜真卿/行草书争座位帖/fatie-009.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_author">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -891,7 +735,7 @@
         <state relative-caret-position="201">
           <caret line="169" column="46" lean-forward="false" selection-start-line="169" selection-start-column="46" selection-end-line="169" selection-end-column="46" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -904,6 +748,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_copybooklist">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_copybookall">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_collectors">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -911,12 +769,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/media/media/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/16.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_myuser">
@@ -926,21 +811,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_friendscircleitem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_copybooklist">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_copybookall">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
