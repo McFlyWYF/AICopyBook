@@ -53,7 +53,7 @@ class FriendsCircleItem(models.Model):
     user = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
     releaseDate = models.DateTimeField(max_length=200)  # 发布日期
     ItemText = models.TextField(max_length=500)  # 文字描述
-    imgUrl = models.URLField(max_length=100)  # 发布图片URL
+    imgUrl = models.FileField(upload_to='media')  # 发布图片URL
     stick = models.CharField(max_length=100, null=True)  # 是否为生成的碑帖
     likeNum = models.CharField(max_length=100)  # 点赞数
     shareNum = models.CharField(max_length=100)  # 分享数
@@ -95,7 +95,7 @@ class ChinesePainting(models.Model):
 
 class Collectors(models.Model):
     CollectId = models.CharField(max_length=50, primary_key=True)  # 收藏品ID
-    CollectUrl = models.FileField(upload_to='media')  # 收藏品路径
+    CollectUrl = models.URLField(max_length=100)  # 收藏品URL
     CollectUser = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
 
     def __str__(self):

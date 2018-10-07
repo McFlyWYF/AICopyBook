@@ -27,8 +27,8 @@ urlpatterns = [
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     url(r'register/$', views.register),  # 注册
     url(r'login/$', views.login),  # 登录
-    url(r'collect/$', views.collection),  # 收藏
-    url(r'friend/$', views.friend),  # 朋友圈
+    url(r'collection/$', views.collection),  # 收藏
+    url(r'issueFriends/$', views.friend),  # 朋友圈
 
 
     url(r'hqz/$',views.hqz),

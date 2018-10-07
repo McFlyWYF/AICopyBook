@@ -154,7 +154,7 @@ def login(request):
 def collection(request):
     if request.method == 'POST':
         id = request.POST.get('id')  # 收藏品编号
-        url = request.FILES.get('dir')  # 收藏品URL
+        url = request.POST.get('url')  # 收藏品URL
         user = request.POST.get('user')  # 用户名
 
         users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user)
@@ -169,7 +169,7 @@ def friend(request):
         id = request.POST.get('id')  # 动态编号
         date = request.POST.get('date')  # 发布日期
         text = request.POST.get('text')  # 文本内容
-        url = request.POST.get('url')  # 图片URL
+        url = request.FILES.get('dir')  # 图片URL
         stick = request.POST.get('stick')  # 是否是生成的碑帖
         likenum = request.POST.get('likenum')  # 点赞数
         sharenum = request.POST.get('sharenum')  # 分享数
