@@ -95,7 +95,7 @@ class ChinesePainting(models.Model):
 
 class Collectors(models.Model):
     CollectId = models.CharField(max_length=50, primary_key=True)  # 收藏品ID
-    CollectUrl = models.URLField(max_length=100)  # 收藏品URL
+    CollectUrl = models.FileField(upload_to='media')  # 收藏品路径
     CollectUser = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
 
     def __str__(self):

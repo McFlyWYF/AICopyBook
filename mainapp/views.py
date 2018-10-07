@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
     ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer, \
-    FriendsSerializer, MyUserSerializer
+    FriendsSerializer, MyUserSerializer,CollectSerializer
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
     Collectors, FriendsCircleItem,HQZ
 from rest_framework.response import Response
@@ -102,6 +102,15 @@ class FindWordsSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
+class CollectSet(viewsets.ModelViewSet):
+    '''
+    收藏
+    '''
+
+    queryset = Collectors.objects.all()
+    serializer_class = CollectSerializer
+
+
 from django.views.decorators.csrf import csrf_exempt
 
 
@@ -145,7 +154,7 @@ def login(request):
 def collection(request):
     if request.method == 'POST':
         id = request.POST.get('id')  # 收藏品编号
-        url = request.POST.get('url')  # 收藏品URL
+        url = request.FILES.get('dir')  # 收藏品URL
         user = request.POST.get('user')  # 用户名
 
         users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user)

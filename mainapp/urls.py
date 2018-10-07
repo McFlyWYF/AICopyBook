@@ -12,6 +12,7 @@ router.register(r'ChinesePainting', views.ChinesePaintingSet)  # 国画
 router.register(r'findwords', views.FindWordsSet)  #提取字
 router.register(r'friends',views.FriendsCircleItemSet)  #朋友圈
 router.register(r'myuser',views.MyUserSet)  #用户
+router.register(r'collect',views.CollectSet)  #收藏
 
 
 urlpatterns = [
