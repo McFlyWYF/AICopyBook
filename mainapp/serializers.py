@@ -39,7 +39,7 @@ class MyUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = MyUser
-        fields = ('UserName', 'UserAvatar', 'friends_circle_item')
+        fields = ('UserName','UserAge', 'UserAvatar', 'friends_circle_item')
 
 
 # 轮廓
@@ -70,7 +70,7 @@ class FindWordsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FindWords
-        fields = ('FindWordsId','FindAuthorName','FindWordName','WordsUrl')
+        fields = ('FindWordsId','FindAuthorName','FindWordName','WordsUrl','Probability')
 
 # 书法家
 class AuthorSerializer(serializers.ModelSerializer):

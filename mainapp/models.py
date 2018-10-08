@@ -137,6 +137,7 @@ class FindWords(models.Model):
     FindAuthorName = models.ForeignKey(Author, on_delete=models.CASCADE)  # 书法家名
     FindWordName = models.ForeignKey(Words, max_length=50, on_delete=models.CASCADE)  # 字名
     WordsUrl = models.URLField(max_length=200)  # URL
+    Probability = models.CharField(max_length=50)   #概率值
 
 
 

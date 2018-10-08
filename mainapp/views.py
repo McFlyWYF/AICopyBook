@@ -96,10 +96,10 @@ class FindWordsSet(viewsets.ModelViewSet):
     queryset = FindWords.objects.all()
     serializer_class = FindWordsSerializer
 
-    def list(self, request, *args, **kwargs):
-        auths = self.queryset.filter(FindAuthorName=request.GET['author'], FindWordName=request.GET['word'])
-        serializer = FindWordsSerializer(auths, many=True)
-        return Response(serializer.data)
+    # def list(self, request, *args, **kwargs):
+    #     auths = self.queryset.filter(FindAuthorName=request.GET['author'], FindWordName=request.GET['word'])
+    #     serializer = FindWordsSerializer(auths, many=True)
+    #     return Response(serializer.data)
 
 
 class CollectSet(viewsets.ModelViewSet):
