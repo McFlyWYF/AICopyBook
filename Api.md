@@ -11,7 +11,7 @@
 | 7    | 39.105.110.19/copybookAll                                    | 所有碑帖图片(用不到)     | GET  |
 | 8    | 39.105.110.19/WordsOutline                                   | 字体轮廓图               | GET  |
 | 9    | 39.105.110.19/ChinesePainting                                | 国画                     | GET  |
-| 10   | 39.105.110.19/findwords/?author=书法家名&word=字名           | 提取单独字               | GET  |
+| 10   | 39.105.110.19/findwords                                      | 提取单独字               | GET  |
 | 11   | 39.105.110.19/friendsAll                                     | 获取朋友圈所有动态       | GET  |
 | 12   | 39.105.110.19/showFriends/用户名                             | 获取每个用户的动态       | GET  |
 | 13   | 39.105.110.19/showCollections                                | 查看收藏品               | GET  |
