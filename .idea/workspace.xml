@@ -3,48 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0e0320e-9a16-4482-aaf3-8069cf9fb52f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" afterPath="$PROJECT_DIR$/mainapp/urls.py" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-德.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-碑.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-侍.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-公.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-成.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-架.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-监.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-书.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-汉.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-白.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-行.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-记.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-中.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-体.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-叶.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-文.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-花.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/柳公权-丹.PNG" afterPath="$PROJECT_DIR$/static/images/recognition/柳公权-丹.PNG" />
-      <change beforePath="$PROJECT_DIR$/static/images/柳公权-武.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/柳公权-甜.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/柳公权-简.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/柳公权-英.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/欧阳询-体.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/欧阳询-欧.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/欧阳询-艺.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/欧阳询-行.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/欧阳询-高.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/赵孟頫-作.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/赵孟頫-州.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/赵孟頫-竹.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/赵孟頫-青.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/赵孟頫-马.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/颜真卿-书.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/颜真卿-印.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/颜真卿-叶.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/颜真卿-成.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/颜真卿-花.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/recognition/柳公权-丹.PNG" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +50,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="456">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -241,6 +200,13 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Painting" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,8 +227,8 @@
       <recent name="E:\Painting" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Painting\static\images\line" />
       <recent name="E:\Painting\static\images\recognition" />
+      <recent name="E:\Painting\static\images\line" />
       <recent name="E:\Painting\static\images" />
       <recent name="E:\Painting\media\media" />
       <recent name="E:\Painting" />
@@ -529,19 +495,27 @@
       <option name="project" value="LOCAL" />
       <updated>1538996785245</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="words">
+      <created>1539005947898</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1539005947901</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32383123" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32383123" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5381984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28004292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28004292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21834764" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -606,26 +580,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/media/7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/media/6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/media/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/media/16.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/media/2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -858,11 +812,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/recognition/欧阳询-体.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-悦.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -888,10 +837,35 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/recognition/颜真卿-书.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/recognition/欧阳询-体.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-现.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/recognition/欧阳询-欧.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/recognition/赵孟頫-作.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="456">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
