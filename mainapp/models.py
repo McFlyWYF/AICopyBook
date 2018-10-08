@@ -51,7 +51,7 @@ class MyUser(models.Model):
 
 class FriendsCircleItem(models.Model):
     user = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
-    releaseDate = models.DateTimeField(max_length=200)  # 发布日期
+    releaseDate = models.DateTimeField(max_length=200,null=True)  # 发布日期
     ItemText = models.TextField(max_length=500)  # 文字描述
     imgUrl = models.FileField(upload_to='media')  # 发布图片URL
     stick = models.CharField(max_length=100, null=True)  # 是否为生成的碑帖

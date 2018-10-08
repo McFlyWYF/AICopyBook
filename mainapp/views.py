@@ -175,7 +175,7 @@ def friend(request):
         sharenum = request.POST.get('sharenum')  # 分享数
         user = request.POST.get('user')  # 用户名
 
-        users = FriendsCircleItem.objects.create(id=id, releaseDate=date, ItemText=text, imgUrl=url, stick=stick,
+        users = FriendsCircleItem.objects.update_or_create(id=id, releaseDate=date, ItemText=text, imgUrl=url, stick=stick,
                                                  likeNum=likenum, shareNum=sharenum, user_id=user)
         users.save()
         return HttpResponse('发布成功')
@@ -184,7 +184,7 @@ def friend(request):
 @csrf_exempt
 def hqz(request):
     if request.method == 'POST':
-        avatar = request.FILES.get('avatar')  # 头像，通过127.0.0.1:8000/media/图片名访问头像
+        avatar = request.FILES.get('avatar')  # 头像，通过39.105.110.19/media/media/图片名访问头像
         user = models.HQZ.objects.create(Image=avatar)
         user.save()
 
