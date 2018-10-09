@@ -7,6 +7,7 @@ from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Wo
 from rest_framework.response import Response
 from django.http.response import HttpResponse
 from mainapp import models
+import json
 
 
 # Create your views here.
@@ -138,7 +139,10 @@ def register(request):
         user.save()
         # print(avatar)
 
-        return HttpResponse('注册成功')
+        # resp = {'message': "注册成功"}
+        # return HttpResponse(json.dumps(resp))
+
+        return HttpResponse("注册成功")
     else:
         return HttpResponse('用户已存在')
 

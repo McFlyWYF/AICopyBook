@@ -5,48 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_4eR9Chi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_H3cKOgE.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_Ii6YvAh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_IjFTn7B.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_U01g7W7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_VAKiyLt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_bAtl2QB.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_gCYYIki.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_x0DEJ1b.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/中-颜真卿_youY2x0.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_AjjbKq7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_LQPYrVr.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_MZZvleG.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_Pprj2bn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_Tst1YNa.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_ZY74v3R.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_fYsf7RU.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_jAogM5V.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/书-孙中山_yJzEFg3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_28Iy9j9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_39asw3S.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_3YoVWEh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_4ko8M3m.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_7vmQwo6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_95r0xhQ.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_FmvrseW.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_Jmdd8vZ.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_KGDJcOq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_Ltzxz2u.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_YpqhcR0.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_eBYiDx3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_fVRhjkh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_lUxSx0b.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_qTxhhQ2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_rwTGPoI.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/京-柳公权_yVd70oG.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/皇-赵孟頫.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/皇-赵孟頫_AV8RLGO.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/皇-赵孟頫_Le4HBJe.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Painting$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1539065278648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Painting$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1539075648301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -96,39 +54,30 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="191" column="21" lean-forward="false" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
-                <element signature="e#2430#2431#0" expanded="false" />
-                <element signature="e#5275#5548#0" expanded="false" />
-                <element signature="e#5312#5502#0" expanded="false" />
+                <element signature="e#2442#2443#0" expanded="false" />
+                <element signature="e#5373#5646#0" expanded="false" />
+                <element signature="e#5410#5600#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainapp_friendscircleitem" pinned="false" current-in-tab="true">
-        <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_friendscircleitem">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainapp_collectors" pinned="false" current-in-tab="false">
-        <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_collectors">
+      <file leaf-file-name="mainapp_myuser" pinned="false" current-in-tab="false">
+        <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_myuser">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -161,8 +110,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+            <state relative-caret-position="384">
+              <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -219,10 +168,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2017" />
-    <option name="y" value="29" />
-    <option name="width" value="3008" />
-    <option name="height" value="1125" />
+    <option name="x" value="2391" />
+    <option name="y" value="-9" />
+    <option name="width" value="2018" />
+    <option name="height" value="1093" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -314,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: ">
+  <component name="RunManager" selected="Django server.Painting">
     <configuration name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -661,24 +610,41 @@
       <option name="project" value="LOCAL" />
       <updated>1539062727351</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="image">
+      <created>1539065634133</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1539065634133</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Test__ - 2018.10.09 at 14h 08m 06s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__ - 2018.10.09 at 16h 59m 54s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2018.10.09 at 17h 00m 46s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2018.10.09 at 17h 00m 58s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2018" height="1093" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27657267" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27657267" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5381984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.218107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -745,11 +711,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/media/登黄鹤楼.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/media/肥致碑.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -938,25 +899,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_myuser">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Painting/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -981,44 +927,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-          <folding>
-            <element signature="e#1549#1550#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_collectors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="191" column="21" lean-forward="false" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="false" />
-            <element signature="e#5275#5548#0" expanded="false" />
-            <element signature="e#5312#5502#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/media/皇-赵孟頫_NKL2ARE.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1035,10 +943,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+          <folding>
+            <element signature="e#1549#1550#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_friendscircleitem">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/后赤壁赋.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_myuser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#2442#2443#0" expanded="false" />
+            <element signature="e#5373#5646#0" expanded="false" />
+            <element signature="e#5410#5600#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
