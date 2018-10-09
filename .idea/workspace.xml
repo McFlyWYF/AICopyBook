@@ -2,62 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e0320e-9a16-4482-aaf3-8069cf9fb52f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0029_auto_20181008_2338.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0030_auto_20181008_2344.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0031_auto_20181009_1117.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0032_auto_20181009_1156.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0033_auto_20181009_1227.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_4eR9Chi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_H3cKOgE.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_Ii6YvAh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_IjFTn7B.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_U01g7W7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_VAKiyLt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_bAtl2QB.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_gCYYIki.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_x0DEJ1b.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_youY2x0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_28Iy9j9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_39asw3S.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_3YoVWEh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_4ko8M3m.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_Jmdd8vZ.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_YpqhcR0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_eBYiDx3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_fVRhjkh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_qTxhhQ2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_rwTGPoI.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_yVd70oG.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/皇-赵孟頫.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/皇-赵孟頫_AV8RLGO.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/皇-赵孟頫_Le4HBJe.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/mainapp/models.py" afterPath="$PROJECT_DIR$/mainapp/models.py" />
-      <change beforePath="$PROJECT_DIR$/mainapp/serializers.py" afterPath="$PROJECT_DIR$/mainapp/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-德.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" afterPath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" afterPath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" afterPath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-碑.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-侍.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-公.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-成.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-架.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-监.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-书.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-成.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-汉.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-白.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-行.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-记.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-中.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-体.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-叶.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-文.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/颜真卿-花.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,8 +62,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="123" column="52" lean-forward="false" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+            <state relative-caret-position="240">
+              <caret line="120" column="30" lean-forward="true" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -284,13 +232,6 @@
               <item name="Painting" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="line" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -615,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539011398819</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="image">
+      <created>1539060322719</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1539060322719</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,11 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/media/后赤壁赋.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/media/沁园春长沙.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -848,12 +791,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-架.png">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-架.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-监.png">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-监.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -878,17 +821,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-公.png">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-公.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-侍.png">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-侍.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-碑.png">
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-碑.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -898,12 +841,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-成.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-皆.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-成.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -961,7 +899,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-德.png">
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-皆.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -971,10 +909,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/line/颜真卿-体.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-德.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="123" column="52" lean-forward="false" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+        <state relative-caret-position="240">
+          <caret line="120" column="30" lean-forward="true" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
