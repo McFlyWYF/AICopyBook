@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0e0320e-9a16-4482-aaf3-8069cf9fb52f" name="Default" comment="u">
+    <list default="true" id="b0e0320e-9a16-4482-aaf3-8069cf9fb52f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0029_auto_20181008_2338.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0030_auto_20181008_2344.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0031_auto_20181009_1117.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0032_auto_20181009_1156.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mainapp/migrations/0033_auto_20181009_1227.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_4eR9Chi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_H3cKOgE.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_Ii6YvAh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_IjFTn7B.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_U01g7W7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_VAKiyLt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_bAtl2QB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_gCYYIki.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_x0DEJ1b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/中-颜真卿_youY2x0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_28Iy9j9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_39asw3S.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_3YoVWEh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_4ko8M3m.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_Jmdd8vZ.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_YpqhcR0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_eBYiDx3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_fVRhjkh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_qTxhhQ2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_rwTGPoI.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/京-柳公权_yVd70oG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/皇-赵孟頫.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/皇-赵孟頫_AV8RLGO.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/media/皇-赵孟頫_Le4HBJe.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change beforePath="$PROJECT_DIR$/mainapp/models.py" afterPath="$PROJECT_DIR$/mainapp/models.py" />
+      <change beforePath="$PROJECT_DIR$/mainapp/serializers.py" afterPath="$PROJECT_DIR$/mainapp/serializers.py" />
       <change beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
       <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-德.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" afterPath="$PROJECT_DIR$/static/images/line/柳公权-悦.PNG" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" afterPath="$PROJECT_DIR$/static/images/line/柳公权-现.PNG" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" afterPath="$PROJECT_DIR$/static/images/line/柳公权-皆.PNG" />
       <change beforePath="$PROJECT_DIR$/static/images/line/柳公权-碑.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-侍.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-公.PNG" afterPath="" />
@@ -17,6 +48,7 @@
       <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-架.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/欧阳询-监.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-书.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-成.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-汉.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-白.PNG" afterPath="" />
       <change beforePath="$PROJECT_DIR$/static/images/line/赵孟頫-行.PNG" afterPath="" />
@@ -69,11 +101,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="173" column="35" lean-forward="false" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
+            <state relative-caret-position="528">
+              <caret line="123" column="52" lean-forward="false" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -82,8 +136,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Painting/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -92,8 +146,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="144">
+              <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -145,10 +199,10 @@
         <option value="$PROJECT_DIR$/Painting/settings.py" />
         <option value="src:table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_copybooklist" />
         <option value="$PROJECT_DIR$/Painting/urls.py" />
-        <option value="$PROJECT_DIR$/mainapp/serializers.py" />
         <option value="$PROJECT_DIR$/mainapp/urls.py" />
-        <option value="$PROJECT_DIR$/mainapp/views.py" />
         <option value="$PROJECT_DIR$/mainapp/models.py" />
+        <option value="$PROJECT_DIR$/mainapp/serializers.py" />
+        <option value="$PROJECT_DIR$/mainapp/views.py" />
       </list>
     </option>
   </component>
@@ -214,6 +268,11 @@
               <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
               <item name="Painting" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Painting" type="462c0819:PsiDirectoryNode" />
+              <item name="Painting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Painting" type="b2602c69:ProjectViewProjectNode" />
@@ -549,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539007317890</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="u">
+      <created>1539011398818</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1539011398819</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +626,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32383123" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27708095" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5381984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28004292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -621,23 +687,14 @@
     <MESSAGE value="api" />
     <MESSAGE value="words" />
     <MESSAGE value="u" />
-    <option name="LAST_COMMIT_MESSAGE" value="u" />
+    <MESSAGE value="image" />
+    <option name="LAST_COMMIT_MESSAGE" value="image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/media/凌铁曹全碑.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/media/兰亭序.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/media/后赤壁赋.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -666,14 +723,6 @@
     <entry file="file://$PROJECT_DIR$/media/media/春晓.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/images/中-颜真卿.png">
@@ -794,30 +843,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-德.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-悦.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-架.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-架.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-监.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-监.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -842,22 +878,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-现.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-公.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-公.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-侍.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-侍.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-碑.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-碑.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -867,9 +898,36 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-成.PNG">
+    <entry file="file://$PROJECT_DIR$/static/images/line/欧阳询-成.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-皆.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_myuser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Painting/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="das://table:/fdeb724b/6a3349ab-7e6f-47d7-9f9b-2968d84db26f/main.mainapp_friendscircleitem">
@@ -879,32 +937,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Painting/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        <state relative-caret-position="144">
+          <caret line="87" column="22" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-皆.PNG">
+    <entry file="file://$PROJECT_DIR$/mainapp/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-德.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/line/柳公权-现.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="173" column="35" lean-forward="false" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="528">
+          <caret line="123" column="52" lean-forward="false" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

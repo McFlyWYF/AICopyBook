@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
     ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer, \
-    FriendsSerializer, MyUserSerializer,CollectSerializer
+    FriendsSerializer, MyUserSerializer, CollectSerializer
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
     Collectors, FriendsCircleItem,HQZ
 from rest_framework.response import Response
@@ -101,6 +101,15 @@ class FindWordsSet(viewsets.ModelViewSet):
     #     serializer = FindWordsSerializer(auths, many=True)
     #     return Response(serializer.data)
 
+#
+# class MyUserSetT(viewsets.ModelViewSet):
+#     '''
+#     用户
+#     '''
+#     queryset = MyUser.objects.all()
+#     serializer_class = MyUserSerializerT
+#     lookup_field = 'UserName'
+
 
 class CollectSet(viewsets.ModelViewSet):
     '''
@@ -109,6 +118,7 @@ class CollectSet(viewsets.ModelViewSet):
 
     queryset = Collectors.objects.all()
     serializer_class = CollectSerializer
+    lookup_field = 'CollectUser'
 
 
 from django.views.decorators.csrf import csrf_exempt
@@ -126,7 +136,7 @@ def register(request):
 
         user = models.MyUser.objects.create(UserName=account, UserPassword=password, UserAge=age, UserAvatar=avatar)
         user.save()
-        print(avatar)
+        # print(avatar)
 
         return HttpResponse('注册成功')
     else:
@@ -156,8 +166,10 @@ def collection(request):
         id = request.POST.get('id')  # 收藏品编号
         url = request.POST.get('url')  # 收藏品URL
         user = request.POST.get('user')  # 用户名
+        name = request.POST.get('name')     #碑帖名
+        author = request.POST.get('author')     #书法家
 
-        users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user)
+        users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user,CollectCopyName=name,CollectAuthor=author)
         users.save()
         return HttpResponse('收藏成功')
 
@@ -175,7 +187,7 @@ def friend(request):
         sharenum = request.POST.get('sharenum')  # 分享数
         user = request.POST.get('user')  # 用户名
 
-        users = FriendsCircleItem.objects.update_or_create(id=id, releaseDate=date, ItemText=text, imgUrl=url, stick=stick,
+        users = FriendsCircleItem.objects.create(friendId=id, releaseDate=date, ItemText=text, imgUrl=url, stick=stick,
                                                  likeNum=likenum, shareNum=sharenum, user_id=user)
         users.save()
         return HttpResponse('发布成功')

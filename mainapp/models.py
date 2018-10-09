@@ -50,6 +50,7 @@ class MyUser(models.Model):
 
 
 class FriendsCircleItem(models.Model):
+    friendId = models.CharField(max_length=50,primary_key=True)    #id
     user = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
     releaseDate = models.DateTimeField(max_length=200,null=True)  # 发布日期
     ItemText = models.TextField(max_length=500)  # 文字描述
@@ -97,6 +98,8 @@ class Collectors(models.Model):
     CollectId = models.CharField(max_length=50, primary_key=True)  # 收藏品ID
     CollectUrl = models.URLField(max_length=100)  # 收藏品URL
     CollectUser = models.ForeignKey(MyUser, on_delete=models.CASCADE)  # 用户
+    CollectAuthor = models.CharField(max_length=100)    #书法家
+    CollectCopyName = models.CharField(max_length=100)  #碑帖名
 
     def __str__(self):
         return self.CollectId
