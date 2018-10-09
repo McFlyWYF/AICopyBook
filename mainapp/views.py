@@ -172,6 +172,8 @@ def collection(request):
         users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user,CollectCopyName=name,CollectAuthor=author)
         users.save()
         return HttpResponse('收藏成功')
+    else:
+        return HttpResponse("收藏失败")
 
 
 # 朋友圈
@@ -187,10 +189,12 @@ def friend(request):
         sharenum = request.POST.get('sharenum')  # 分享数
         user = request.POST.get('user')  # 用户名
 
-        users = FriendsCircleItem.objects.create(friendId=id, releaseDate=date, ItemText=text, imgUrl=url, stick=stick,
-                                                 likeNum=likenum, shareNum=sharenum, user_id=user)
+        users = FriendsCircleItem.objects.update_or_create(friendId=id, defaults={'releaseDate': date, 'ItemText': text, 'imgUrl': url, 'stick': stick,
+                                                 'likeNum': likenum, 'shareNum': sharenum, 'user_id': user})
         users.save()
         return HttpResponse('发布成功')
+    else:
+        return HttpResponse("发布失败")
 
 
 @csrf_exempt
