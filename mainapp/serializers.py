@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from .models import CopyBookList, CopyBookAll, WordsOutline, ChinesePainting, Words, FindWords, Author, \
-    FriendsCircleItem, MyUser, Collectors
+    FriendsCircleItem, MyUser, Collectors, User, Foods, EatStatistics, DiseasesClassify
 
 '''
 json格式化model对象
@@ -25,31 +25,30 @@ class CopyBookListSerializer(serializers.ModelSerializer):
 
 # 朋友圈
 class FriendsSerializer(serializers.ModelSerializer):
-    user = serializers.PrimaryKeyRelatedField(read_only=True,)
+    user = serializers.PrimaryKeyRelatedField(read_only=True, )
 
     class Meta:
         model = FriendsCircleItem
         fields = ('user', 'releaseDate', 'ItemText', 'imgUrl', 'stick', 'likeNum', 'shareNum')
 
 
-#用户
+# 用户
 class MyUserSerializer(serializers.ModelSerializer):
-
-    friends_circle_item = FriendsSerializer(source='friendscircleitem_set',read_only=True,many=True)
+    friends_circle_item = FriendsSerializer(source='friendscircleitem_set', read_only=True, many=True)
 
     class Meta:
         model = MyUser
-        fields = ('UserName','UserAge', 'UserAvatar', 'friends_circle_item')
+        fields = ('UserName', 'UserAge', 'UserAvatar', 'friends_circle_item')
 
 
 # 收藏
 class CollectSerializer(serializers.ModelSerializer):
-
     # CollectUser = serializers.PrimaryKeyRelatedField(read_only=True,)
 
     class Meta:
         model = Collectors
-        fields = ('CollectId','CollectUser','CollectUrl','CollectAuthor','CollectCopyName')
+        fields = ('CollectId', 'CollectUser', 'CollectUrl', 'CollectAuthor', 'CollectCopyName')
+
 
 #
 # #用户收藏
@@ -78,7 +77,6 @@ class ChinesePaintingSerializer(serializers.ModelSerializer):
 
 # 字
 class WordsSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Words
         fields = '__all__'
@@ -86,16 +84,71 @@ class WordsSerializer(serializers.ModelSerializer):
 
 # 查找
 class FindWordsSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = FindWords
-        fields = ('FindWordsId','FindAuthorName','FindWordName','WordsUrl','Probability')
+        fields = ('FindWordsId', 'FindAuthorName', 'FindWordName', 'WordsUrl', 'Probability')
+
 
 # 书法家
 class AuthorSerializer(serializers.ModelSerializer):
-
-    AuthorWords = FindWordsSerializer(source = 'findwords_set',many=True,read_only=True)
+    AuthorWords = FindWordsSerializer(source='findwords_set', many=True, read_only=True)
 
     class Meta:
         model = Author
-        fields = ('AuthorName','AuthorWords')
+        fields = ('AuthorName', 'AuthorWords')
+
+
+#############################################################################
+
+
+'''
+json格式化model对象
+'''
+
+'''
+用户
+'''
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('account', 'password', 'age')
+
+
+'''
+食谱
+'''
+
+
+class FoodsSerializer(serializers.ModelSerializer):
+    diseaseVariety = serializers.PrimaryKeyRelatedField(read_only=True, )
+
+    class Meta:
+        model = Foods
+        fields = (
+        'diseaseVariety', 'foodId', 'foodName', 'foodUrl', 'foodMaterial', 'foodHot', 'foodProtein', 'foodIntroduce')
+
+
+'''
+摄入统计
+'''
+
+
+class EatStatisticsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = EatStatistics
+        fields = ('eatId', 'eatHot', 'eatProtein', 'eatSugar', 'eatTime')
+
+
+'''
+疾病种类
+'''
+
+
+class DiseasesClassifySerializer(serializers.ModelSerializer):
+    foods = FoodsSerializer(source='foods_set', read_only=True, many=True, )  # 一对多关系
+
+    class Meta:
+        model = DiseasesClassify
+        fields = ('diseaseVariety', 'diseaseIntroduce', 'foods')

@@ -1,9 +1,10 @@
 from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
     ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer, \
-    FriendsSerializer, MyUserSerializer, CollectSerializer
+    FriendsSerializer, MyUserSerializer, CollectSerializer, FoodsSerializer, DiseasesClassifySerializer, \
+    EatStatisticsSerializer, UserSerializer
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
-    Collectors, FriendsCircleItem,HQZ
+    Collectors, FriendsCircleItem, HQZ, User, EatStatistics, Foods, DiseasesClassify
 from rest_framework.response import Response
 from django.http.response import HttpResponse
 from mainapp import models
@@ -102,6 +103,7 @@ class FindWordsSet(viewsets.ModelViewSet):
     #     serializer = FindWordsSerializer(auths, many=True)
     #     return Response(serializer.data)
 
+
 #
 # class MyUserSetT(viewsets.ModelViewSet):
 #     '''
@@ -170,10 +172,11 @@ def collection(request):
         id = request.POST.get('id')  # 收藏品编号
         url = request.POST.get('url')  # 收藏品URL
         user = request.POST.get('user')  # 用户名
-        name = request.POST.get('name')     #碑帖名
-        author = request.POST.get('author')     #书法家
+        name = request.POST.get('name')  # 碑帖名
+        author = request.POST.get('author')  # 书法家
 
-        users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user,CollectCopyName=name,CollectAuthor=author)
+        users = Collectors.objects.create(CollectId=id, CollectUrl=url, CollectUser_id=user, CollectCopyName=name,
+                                          CollectAuthor=author)
         users.save()
         return HttpResponse('收藏成功')
     else:
@@ -193,8 +196,11 @@ def friend(request):
         sharenum = request.POST.get('sharenum')  # 分享数
         user = request.POST.get('user')  # 用户名
 
-        users = FriendsCircleItem.objects.update_or_create(friendId=id, defaults={'releaseDate': date, 'ItemText': text, 'imgUrl': url, 'stick': stick,
-                                                 'likeNum': likenum, 'shareNum': sharenum, 'user_id': user})
+        users = FriendsCircleItem.objects.update_or_create(friendId=id, defaults={'releaseDate': date, 'ItemText': text,
+                                                                                  'imgUrl': url, 'stick': stick,
+                                                                                  'likeNum': likenum,
+                                                                                  'shareNum': sharenum,
+                                                                                  'user_id': user})
         users.save()
         return HttpResponse('发布成功')
     else:
@@ -211,3 +217,78 @@ def hqz(request):
         return HttpResponse('上传成功')
     else:
         return HttpResponse('上传失败')
+
+
+class UserSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+
+class FoodsSet(viewsets.ModelViewSet):
+    queryset = Foods.objects.all()
+    serializer_class = FoodsSerializer
+    lookup_field = 'diseaseVariety'
+
+
+class EatStatisticsSet(viewsets.ModelViewSet):
+    queryset = EatStatistics.objects.all()
+    serializer_class = EatStatisticsSerializer
+
+
+class DiseasesClassifySet(viewsets.ModelViewSet):
+    queryset = DiseasesClassify.objects.all()
+    serializer_class = DiseasesClassifySerializer
+
+
+from django.views.decorators.csrf import csrf_exempt
+
+
+# 注册
+@csrf_exempt
+def register1(request):
+    if request.method == 'POST':
+        account = request.POST.get('account')  # 用户名
+        password = request.POST.get('password')  # 密码
+        age = request.POST.get('age')  # 年龄
+
+        user = models.User.objects.create(account=account, password=password, age=age)
+        user.save()
+        resp = {'message': "注册成功"}
+        return HttpResponse(json.dumps(resp))
+    else:
+        resp = {'message': "该用户已存在"}
+        return HttpResponse(json.dumps(resp))
+
+
+# 登录
+@csrf_exempt
+def login1(request):
+    if request.method == 'POST':
+        account = request.POST.get('account')  # 用户名
+        password = request.POST.get('password')  # 密码
+        user = User.objects.filter(account=account, password=password)
+        if user:
+            resp = {'message': "登录成功"}
+            return HttpResponse(json.dumps(resp))
+        else:
+            resp = {'message': "登录失败"}
+            return HttpResponse(json.dumps(resp))
+
+
+# 每日摄入统计
+@csrf_exempt
+def eatStatistic(request):
+    if request.method == 'POST':
+        hot = request.POST.get('hot')
+        protein = request.POST.get('protein')
+        sugar = request.POST.get('sugar')
+        time = request.POST.get('time')
+
+        eat = models.EatStatistics.objects.create(eatHot=hot, eatProtein=protein, eatSugar=sugar, eatTime=time)
+        eat.save()
+
+        resp = {'message': "存入成功"}
+        return HttpResponse(json.dumps(resp))
+    else:
+        resp = {'message': "存入失败"}
+        return HttpResponse(json.dumps(resp))

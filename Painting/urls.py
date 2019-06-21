@@ -30,6 +30,11 @@ urlpatterns = [
     url(r'collection/$', views.collection),  # 收藏
     url(r'issueFriends/$', views.friend),  # 朋友圈
 
+    url(r'hqz/$', views.hqz),
 
-    url(r'hqz/$',views.hqz),
+    #################################################################
+
+    url(r'register1/$', views.register1),  # 注册
+    url(r'login1/$', views.login1),  # 登录
+    url(r'eatS/$', views.eatStatistic),  # 摄入统计
 ]
