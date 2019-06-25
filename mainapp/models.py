@@ -199,7 +199,7 @@ class Foods(models.Model):
     diseaseVariety = models.ForeignKey(DiseasesClassify, on_delete=models.CASCADE)  # 疾病名称，一种疾病对应多种食物
 
     def __str__(self):
-        return self.diseaseVariety
+        return self.foodName
 
 
 '''
