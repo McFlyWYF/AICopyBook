@@ -180,7 +180,7 @@ class DiseasesClassify(models.Model):
     diseaseIntroduce = models.TextField(max_length=1000, )  # 介绍
 
     def __str__(self):
-        return self.variety
+        return self.diseaseVariety
 
 
 '''
