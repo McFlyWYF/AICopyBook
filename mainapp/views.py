@@ -250,14 +250,19 @@ def register1(request):
         account = request.POST.get('account')  # 用户名
         password = request.POST.get('password')  # 密码
         age = request.POST.get('age')  # 年龄
+        print(account, password, age)
+        userf = models.User.objects.filter(account=account)
+        if userf:
+            resp = {'message': "该用户已存在"}
+            return HttpResponse(json.dumps(resp))
+        else:
+            user = models.User.objects.create(account=account, password=password, age=age)
+            user.save()
+            resp = {'message': "注册成功"}
+            return HttpResponse(json.dumps(resp))
 
-        user = models.User.objects.create(account=account, password=password, age=age)
-        user.save()
-        resp = {'message': "注册成功"}
-        return HttpResponse(json.dumps(resp))
     else:
-        resp = {'message': "该用户已存在"}
-        return HttpResponse(json.dumps(resp))
+        return HttpResponse("注册失败")
 
 
 # 登录
