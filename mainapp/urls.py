@@ -14,12 +14,6 @@ router.register(r'friendsAll', views.FriendsCircleItemSet)  # 朋友圈所有动
 router.register(r'showFriends', views.MyUserSet)  # 所有用户的动态
 router.register(r'showCollections', views.CollectSet)  # 收藏
 
-###################################################################
-
-router.register(r'user', views.UserSet)  # 用户
-router.register(r'foods', views.FoodsSet)  # 食谱
-router.register(r'disease', views.DiseasesClassifySet)  # 疾病分类
-router.register(r'eat', views.EatStatisticsSet)  # 摄入统计
 
 urlpatterns = [
     url(r'^', include(router.urls)),

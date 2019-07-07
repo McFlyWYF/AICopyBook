@@ -1,10 +1,10 @@
 from rest_framework import viewsets, status
 from mainapp.serializers import CopyBookListSerializer, CopyBookAllSerializer, \
     ChinesePaintingSerializer, WordsOutlineSerializer, WordsSerializer, FindWordsSerializer, AuthorSerializer, \
-    FriendsSerializer, MyUserSerializer, CollectSerializer, FoodsSerializer, DiseasesClassifySerializer, \
-    EatStatisticsSerializer, UserSerializer
+    FriendsSerializer, MyUserSerializer, CollectSerializer
+
 from .models import CopyBookList, CopyBookAll, ChinesePainting, WordsOutline, Words, FindWords, Author, MyUser, \
-    Collectors, FriendsCircleItem, HQZ, User, EatStatistics, Foods, DiseasesClassify
+    Collectors, FriendsCircleItem
 from rest_framework.response import Response
 from django.http.response import HttpResponse
 from mainapp import models
@@ -217,83 +217,3 @@ def hqz(request):
         return HttpResponse('上传成功')
     else:
         return HttpResponse('上传失败')
-
-
-class UserSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
-
-
-class FoodsSet(viewsets.ModelViewSet):
-    queryset = Foods.objects.all()
-    serializer_class = FoodsSerializer
-    lookup_field = 'diseaseVariety'
-
-
-class EatStatisticsSet(viewsets.ModelViewSet):
-    queryset = EatStatistics.objects.all()
-    serializer_class = EatStatisticsSerializer
-
-
-class DiseasesClassifySet(viewsets.ModelViewSet):
-    queryset = DiseasesClassify.objects.all()
-    serializer_class = DiseasesClassifySerializer
-
-
-from django.views.decorators.csrf import csrf_exempt
-
-
-# 注册
-@csrf_exempt
-def register1(request):
-    if request.method == 'POST':
-        account = request.POST.get('account')  # 用户名
-        password = request.POST.get('password')  # 密码
-        age = request.POST.get('age')  # 年龄
-        print(account, password, age)
-        userf = models.User.objects.filter(account=account)
-        if userf:
-            resp = {'message': "该用户已存在"}
-            return HttpResponse(json.dumps(resp))
-        else:
-            user = models.User.objects.create(account=account, password=password, age=age)
-            user.save()
-            resp = {'message': "注册成功"}
-            return HttpResponse(json.dumps(resp))
-
-    else:
-        return HttpResponse("注册失败")
-
-
-# 登录
-@csrf_exempt
-def login1(request):
-    if request.method == 'POST':
-        account = request.POST.get('account')  # 用户名
-        password = request.POST.get('password')  # 密码
-        user = User.objects.filter(account=account, password=password)
-        if user:
-            resp = {'message': "登录成功"}
-            return HttpResponse(json.dumps(resp))
-        else:
-            resp = {'message': "登录失败"}
-            return HttpResponse(json.dumps(resp))
-
-
-# 每日摄入统计
-@csrf_exempt
-def eatStatistic(request):
-    if request.method == 'POST':
-        hot = request.POST.get('hot')
-        protein = request.POST.get('protein')
-        sugar = request.POST.get('sugar')
-        time = request.POST.get('time')
-
-        eat = models.EatStatistics.objects.create(eatHot=hot, eatProtein=protein, eatSugar=sugar, eatTime=time)
-        eat.save()
-
-        resp = {'message': "存入成功"}
-        return HttpResponse(json.dumps(resp))
-    else:
-        resp = {'message': "存入失败"}
-        return HttpResponse(json.dumps(resp))
