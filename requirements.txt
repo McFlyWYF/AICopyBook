@@ -8,7 +8,7 @@ colorama==0.3.9
 cryptography==2.3.1
 cycler==0.10.0
 decorator==4.3.0
-Django==2.1
+Django==2.2.13
 django-extensions==2.1.2
 djangorestframework==3.8.2
 entrypoints==0.2.3
